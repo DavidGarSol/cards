@@ -34,10 +34,9 @@ public class CardController {
 		switch (accountNumber) {
 		
 		case "59873572":
-			System.out.println("Inicio");
-			throw new RuntimeException("Error runtime");
+//			throw new RuntimeException("Error runtime");
 		case "32189843":
-			throw new UnauthorizedException("ERROR XD");
+//			throw new UnauthorizedException("ERROR XD");
 		}
 
 		return ResponseEntity.ok(service.getCardByAccountNumber(accountNumber));
